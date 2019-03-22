@@ -1,3 +1,15 @@
 body{
-  background-image: url(/home/victor/Documents/moringa-school-projects/week2/Triangle-Tracker/images/images.jpeg);
+  background-image: url(/home/victor/Documents/moringa-school-projects/week2/Triangle-Tracker/images/triangles.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+}
+.heading{
+  text-align: center;
+  font-size: 48px;
+  font-weight: bolder;
+  color: green;
+  border: dotted;
+  border-color: blue;
+  background-color: lightblue;
 }
