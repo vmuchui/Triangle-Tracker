@@ -1,7 +1,11 @@
 function reload(){
-var sideA = parseFloat(prompt("Enter first value!"));
-var sideB = parseFloat(prompt("Enter second value!"));
-var sideC = parseFloat(prompt("Enter third value!"));
+var value1 = document.getElementById('sideA').value
+var value2 = document.getElementById('sideB').value
+var value3 = document.getElementById('sideC').value
+
+var sideA = parseFloat(value1);
+var sideB = parseFloat(value2);
+var sideC = parseFloat(value3);
 var track = function(a,b,c){
 return a + b > c && a + c > b && b + c > a
 }
@@ -16,4 +20,4 @@ alert("Your triangle is Scalene!")
 }
 else {
 alert("Your values do not create a triangle!")
-}}; 
+}};
