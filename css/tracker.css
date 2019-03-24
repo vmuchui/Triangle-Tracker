@@ -13,6 +13,21 @@ body{
   border-color: blue;
   background-color: lightblue;
 }
-html{
+.input{
+  text-indent: 200px;
+  list-style: inside;
+  font-family: Arial,helvetica,sans-serif;
+  font-size: 27px;
+}
+#text{
+  font-style: italic;
+  font-size: 24px;
 
+}
+.size{
+  font-size: 24px;
+}
+.navigate{
+  font-size: 28px;
+  text-align: center;
 }
