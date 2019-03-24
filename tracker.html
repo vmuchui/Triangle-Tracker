@@ -7,19 +7,23 @@
     <title></title>
   </head>
   <body>
+    <nav class="navigate">
+      <a href="index.html">Home</a>
+    </nav>
     <h1 class="heading"><strong><u><em>Welcome to the triangle tracker</em></u></strong>.</h1>
-    <p>Having trouble figuring out your triangles try this tracker...Put your triangles back on track.<br>
-    Enter your values and be ready to go!!!!
+    <p><span id="text">Having trouble figuring out your triangles try this tracker...Put your triangles back on track.<br>
+    Enter your values and be ready to go!!!!</span>
     </p>
     <div class="input">
       <ul>
-        <li><input type="number" id="sideA"></li>
-        <li><input type="number" id="sideB"></li>
-        <li><input type="number" id="sideC"></li>
+        <li>Enter your first value:<input type="number" onfocus="enter your first value" id="sideA"></li>
+        <li>Enter your second value:<input type="number" onfocus="enter your second value" id="sideB"></li>
+        <li>Enter your third value:<input type="number" onfocus="enter your third value" id="sideC"></li>
       </ul>
     </div>
 
     <script type="text/javascript" src="./js/scripts.js" charset="utf-8"></script>
-    <p>Hey just click <input type="button" value="here" onclick="reload()">to begin</p>
+    <p class="size">Hey just click <input type="button" value="here" onclick="reload()"> to checkout your triangle.</p>
+
   </body>
 </html>

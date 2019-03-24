@@ -1,5 +1,5 @@
 body{
-  background-image: url(/home/victor/Documents/moringa-school-projects/week2/Triangle-Tracker/images/triangles (1).jpg);
+  background-image: url(/home/victor/Documents/moringa-school-projects/week2/Triangle-Tracker/images/what_is_a_triangle.png);
   background-attachment: fixed;
   background-position: center;
   background-size: contain;
@@ -12,4 +12,22 @@ body{
   border: dotted;
   border-color: blue;
   background-color: lightblue;
+}
+.input{
+  text-indent: 200px;
+  list-style: inside;
+  font-family: Arial,helvetica,sans-serif;
+  font-size: 27px;
+}
+#text{
+  font-style: italic;
+  font-size: 24px;
+
+}
+.size{
+  font-size: 24px;
+}
+.navigate{
+  font-size: 28px;
+  text-align: center;
 }
