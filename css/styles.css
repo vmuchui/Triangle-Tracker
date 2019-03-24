@@ -14,3 +14,23 @@ body{
 h1{
   text-indent: 440px
 }
+.column{
+  background-color: green;
+  border: dotted;
+  text-align: left;
+  font-size: 24px;
+}
+.float{
+  float: right;
+}
+.textsize{
+  font-size: 32px;
+}
+footer{
+  background-color: lightblue;
+  text-align: center;
+  list-style: inside;
+}
+.navigate{
+  text-align: center;
+}
