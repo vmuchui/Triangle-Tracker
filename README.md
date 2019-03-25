@@ -11,3 +11,27 @@ Victor Muchui.
 4.click on the 'here' button to check out your triangle.
 5.view the type of triangle through an alert.
 6.refresh the page to type in values again.
+## Requirements
+1.need to have a working browser.(chrome preferrably)
+2.internet access.
+3.have git installed(optional.)
+# BDD
+input:23;23;23 output:your triangle is equilateral;
+input:23;23;27 output:your triangle is isosceles;
+input:13;12;11 output:your triangle is scalene;
+input:ee       output:your values do not create a triangle;
+## Technologies used
+HTML
+CSS
+Javascript
+Atom
+Git-Github
+### Known Bugs
+The background images may not load but i'm working on it.
+# Support and contact details.
+for any queries please mail me at kaigongimuchui@gmail.com
+also call +254 717 304712
+Also feel free to fork and make as many changes as you may feel are needed.
+# Copyright and License
+*(c) Moringa School 2019
+*MIT license
